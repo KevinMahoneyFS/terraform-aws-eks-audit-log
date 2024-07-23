@@ -158,6 +158,7 @@ aws eks --region <region> update-cluster-config --name <cluster_name> \
 |------|-------------|
 | <a name="output_bucket_arn"></a> [bucket\_arn](#output\_bucket\_arn) | Lacework AWS EKS Audit Log S3 Bucket ARN |
 | <a name="output_bucket_name"></a> [bucket\_name](#output\_bucket\_name) | Lacework AWS EKS Audit Log S3 Bucket name |
+| <a name="output_log_bucket_name"></a> [log\_bucket\_name](#output\_log\_bucket\_name) | Logging S3 Bucket name |
 | <a name="output_cloudwatch_iam_role_arn"></a> [cloudwatch\_iam\_role\_arn](#output\_cloudwatch\_iam\_role\_arn) | The Cloudwatch IAM Role ARN |
 | <a name="output_cloudwatch_iam_role_name"></a> [cloudwatch\_iam\_role\_name](#output\_cloudwatch\_iam\_role\_name) | The Cloudwatch IAM Role name |
 | <a name="output_cross_account_iam_role_arn"></a> [cross\_account\_iam\_role\_arn](#output\_cross\_account\_iam\_role\_arn) | The Cross Account IAM Role ARN |

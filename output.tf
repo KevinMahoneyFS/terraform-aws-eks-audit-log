@@ -8,6 +8,11 @@ output "bucket_name" {
   description = "Lacework AWS EKS Audit Log S3 Bucket name"
 }
 
+output "log_bucket_name" {
+  value       = local.log_bucket_name
+  description = "Loging S3 Bucket name"
+}
+
 output "filter_prefix" {
   value       = "${var.prefix}-${random_id.uniq.hex}-eks-cw-"
   description = "The Cloudwatch Log Subscription filter prefix"
